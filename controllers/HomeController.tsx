@@ -14,7 +14,7 @@ const data: Item[] = [
     { id: '5', name: 'Input Handling', screen: 'InputController' },
     { id: '6', name: 'Todo List', screen: 'TodoController' },
     { id: '7', name: 'Responsive Card Grid', screen: 'GridController' },
-    { id: '8', name: 'Memoized Component', screen: '' },
+    { id: '8', name: 'Memoized Component', screen: 'MemoizationController' },
     { id: '9', name: 'Custom Hook', screen: 'FetchController' },
     { id: '10', name: 'Dark Mode Toggle', screen: 'DarkModeController' },
 ];

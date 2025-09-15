@@ -14,6 +14,7 @@ import TodoController from './controllers/TodoController';
 import GridController from './controllers/GridController';
 import FetchController from './controllers/FetchController';
 import DarkModeController from './controllers/DarkModeController';
+import MemoizationController from './controllers/MemoizationController';
 const Stack = createNativeStackNavigator();
 export default function App() {
   return (
@@ -30,7 +31,7 @@ export default function App() {
         <Stack.Screen name="GridController" component={GridController} />
         <Stack.Screen name="FetchController" component={FetchController} />
         <Stack.Screen name="DarkModeController" component={DarkModeController} />
-
+        <Stack.Screen name="MemoizationController" component={MemoizationController} />
       </Stack.Navigator>
    </NavigationContainer>
   );
