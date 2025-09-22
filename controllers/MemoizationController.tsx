@@ -24,7 +24,6 @@ const MemoizationController = () => {
         <Button title="Change Text" onPress={() => setText("Updated " + Date.now())} />
       </View>
 
-      {/* Pass only the necessary prop */}
       <Child text={text} />
     </View>
   );

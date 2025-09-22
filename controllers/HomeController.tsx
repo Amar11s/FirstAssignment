@@ -21,7 +21,7 @@ const data: Item[] = [
 
 const HomeController = ({ navigation }) => {
     const handleItemPress = (item: Item) => {
-     navigation.navigate(item.screen); // Example navigation
+        navigation.navigate(item.screen); // Example navigation
     };
     const renderItem = ({ item }: { item: Item }) => (
         <TouchableOpacity style={styles.item} onPress={() => handleItemPress(item)}>
