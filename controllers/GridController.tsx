@@ -6,14 +6,13 @@ const GridController = () => {
   
   // Calculate number of columns based on screen width
   const getColumns = () => {
-    if (width >= 768) return 3; // Tablet landscape or larger
-    if (width >= 480) return 2; // Tablet portrait or large phone
-    return 1; // Small phone
+    if (width >= 768) return 3; 
+    if (width >= 480) return 2;
+    return 1; 
   };
   
   const columns = getColumns();
   
-  // Sample data for cards
   const cardData = [
     { id: 1, title: 'Card 1', description: 'This is the description for the first card in the grid layout.' },
     { id: 2, title: 'Card 2', description: 'Another card with some interesting content to display.' },

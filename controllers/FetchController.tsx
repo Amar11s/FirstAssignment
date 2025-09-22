@@ -49,7 +49,6 @@ const FetchController = () => {
     }
   };
 
-  // Render each user item
   const renderUserItem = ({ item }: { item: User }) => (
     <View style={styles.userCard}>
       <Text style={styles.name}>{item.name}</Text>
@@ -63,12 +62,10 @@ const FetchController = () => {
     </View>
   );
 
-  // Render the list header
   const renderHeader = () => (
     <Text style={styles.header}>Users List</Text>
   );
 
-  // Render the list footer (loading indicator)
   const renderFooter = () => {
     if (!loading) return null;
     return (

@@ -11,7 +11,6 @@ const CounterController = () => {
 const decrementByOne = () => {
   setCount(count - 1)
 }
-  // Updated JSX with new styles:
 return (
   <View style={styles.container}>
     <Text style={styles.countText}>{count}</Text>

@@ -1,7 +1,7 @@
 import React, { useState, memo } from "react";
 import { View, Text, Button } from "react-native";
 
-// Child component (memoized)
+
 const Child = memo(({ text }) => {
   console.log("Child rendered");
   return (

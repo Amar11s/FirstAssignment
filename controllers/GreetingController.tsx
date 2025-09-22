@@ -3,7 +3,6 @@ import { View, Text, StyleSheet, FlatList } from 'react-native';
 import GreetingCard from './GreetingCard';
 
 const GreetingController = ({ navigation }) => {
-  // Data array - much cleaner!
   const cardsData = [
     {
       id: '1',
@@ -45,7 +44,7 @@ const GreetingController = ({ navigation }) => {
 
   const handleCardPress = (card) => {
     navigation.navigate('CardDetail', {
-      ...card // Spread all card data as params
+      ...card 
     });
   };
 

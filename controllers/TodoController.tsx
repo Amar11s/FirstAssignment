@@ -8,7 +8,7 @@ const TodoController = () => {
     const addTask = () => {
         if (text.trim()) {
             updateTasks(tasks => [...tasks, text])
-            updateText("") // Clear input after adding
+            updateText("") 
         }
     }
     

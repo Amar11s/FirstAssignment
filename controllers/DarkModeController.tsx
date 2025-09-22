@@ -43,7 +43,6 @@ const styles = StyleSheet.create({
   },
 });
 
-// Light theme styles
 const lightStyles = StyleSheet.create({
   container: {
     backgroundColor: "#fff",
@@ -53,7 +52,6 @@ const lightStyles = StyleSheet.create({
   },
 });
 
-// Dark theme styles
 const darkStyles = StyleSheet.create({
   container: {
     backgroundColor: "#000",
